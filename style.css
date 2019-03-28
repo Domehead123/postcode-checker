@@ -1,0 +1,50 @@
+.postcode-checker {
+background-color: #e6e6e6;
+border-radius: 10px;
+width: 100%;
+text-align: center;
+padding: 10px;
+
+}
+
+.postcode-checker .postcode {
+    margin-top: 10px;
+    width: 80%;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.postcode::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  padding-left: 20px;
+}
+
+.postcode::-moz-placeholder { /* Firefox 19+ */
+  padding-left: 20px;
+}
+
+
+.postcode:-ms-input-placeholder { /* IE 10+ */
+  padding-left: 20px;
+}
+
+
+.postcode:-moz-placeholder { /* Firefox 18- */
+  padding-left: 20px;
+}
+
+
+.postcode-checker p {
+    margin-bottom: 5px;
+}
+
+.check {
+    background-color: black;
+    height: 36px;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    left: -150px;
+    top: -2px;
+    border: 0;
+    width: 200px;
+}
